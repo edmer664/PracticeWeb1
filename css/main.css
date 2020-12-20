@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+:root{
+    --darkBrown: #642B09;
+    --lightBrown: #F2CF9D;
+    --tintedBrown: #C46404;
+}
+
+
+body{
+    margin: 0;
+    background-image: url(../Pract.png);
+    display:flex;
+    flex-direction:column;
+    font-family: montserrat, -apple-system;
+    background-repeat: no-repeat;
+    /* height: 1888px;
+    width: 1416px; */
+
+
+}
+
+body .navbar{
+    font-weight: normal;
+    background-color: var(--darkBrown); 
+    padding:.7em; 
+    
+}
+
+body .navbar .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    color: var(--darkBrown);
+    
+}
+
+body .navbar .wrapper .navOps{
+    display: flex;
+    justify-content:space-between;
+    cursor: pointer;
+    
+
+
+}
+body .navbar .wrapper .navOps div{ 
+    margin-right: .5em;
+    background-color: var(--lightBrown);
+    border-radius: 25px;
+    padding: 10px 5px;
+    
+}
+body .navbar .wrapper .navOps div:hover{
+    text-shadow: 2px 2px 5px #07171D;
+}
+body .navbar .wrapper .logo-wrapper{
+    cursor: pointer;
+    margin-left: .5em;
+    background-color: var(--lightBrown);
+    border-radius: 20px;
+    padding:4px 54px 4px 54px;
+    font-size:2rem;
+    text-shadow: 2px 2px 5px #07171D;
+
+
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(2,1fr);
+    
+    
+}
+
+.main .card{   
+    background-color: var(--lightBrown);
+    border-radius: 20px;
+    border-color: #94714F;
+    border-style: solid;
+    border-width: 1px;
+    color: var(--tintedBrown);
+    margin-top:50px;
+    padding:auto;
+    margin-left: 20px;
+     
+
+}
+.main .card .card1 h1{margin-left: 10px;
+    font-weight: bolder;
+}
+.main .card .card1 p{margin-left: 20px;
+    font-size:20px;
+}
+
+
+
